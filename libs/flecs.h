@@ -1,3 +1,9 @@
+// SETTINGS
+#define FLECS_NO_REST
+#define FLECS_NO_HTTP
+
+
+
 // Comment out this line when using as DLL
 #define flecs_STATIC
 /**
