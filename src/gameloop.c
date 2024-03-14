@@ -4,8 +4,8 @@
 void g_gameloop() {
   const int screenWidth = 800;
   const int screenHeight = 600;
-  InitWindow(screenWidth, screenHeight, "Raylib basic window");
-  SetTargetFPS(60);
+  InitWindow(screenWidth, screenHeight, "cavern_grind");
+  SetTargetFPS(144*2);
 
   ecs_world_t *world = g_ecs_init();
 
