@@ -5,3 +5,6 @@ typedef struct {
     float rotation;
 } CTransform;
 
+typedef struct {
+    float size;
+} CSprite;
